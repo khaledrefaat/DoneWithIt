@@ -15,7 +15,7 @@ import ListingDetailsScreen from './App/screens/ListingDetailsScreen';
 
 const App = () => {
   // return <WelcomeScreen></WelcomeScreen>;
-  // return <ViewImageScreen />;
+  return <ViewImageScreen />;
   // return (
   //   <View style={styles.container}>
   //     <Card
@@ -30,13 +30,13 @@ const App = () => {
   //     />
   //   </View>
   // );
-  return (
-    <ListingDetailsScreen
-      image="https://images.unsplash.com/photo-1550639525-c97d455acf70?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=726&q=80"
-      title="Black Outfit For sale"
-      price="899"
-    />
-  );
+  // return (
+  //   <ListingDetailsScreen
+  //     image="https://images.unsplash.com/photo-1550639525-c97d455acf70?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=726&q=80"
+  //     title="Black Outfit For sale"
+  //     price="899"
+  //   />
+  // );
 };
 
 export default App;
