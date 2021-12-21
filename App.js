@@ -8,30 +8,11 @@ import {
   StatusBar,
   Image,
 } from 'react-native';
-import { Feather } from '@expo/vector-icons';
-import { Ionicons } from '@expo/vector-icons';
 
-import Screen from './App/screens/Screen';
-import ViewImageScreen from './App/screens/ViewImageScreen';
-import WelcomeScreen from './App/screens/WelcomeScreen';
-import Card from './App/components/Card';
-import ListingDetailsScreen from './App/screens/ListingDetailsScreen';
-import MessagesScreen from './App/screens/MessagesScreen';
-import AppIcon from './App/components/AppIcon.js';
-import colors from './App/config/colors';
-import ListItem from './App/components/ListItem';
+import AccountScreen from './App/screens/AccountScreen';
 
 const App = () => {
-  return (
-    <Screen>
-      <AppIcon name="email" />
-      <AppIcon name="format-list-bulleted" backgroundColor={colors.primary} />
-      <ListItem
-        title="my title"
-        IconContainer={() => <AppIcon name="email" />}
-      />
-    </Screen>
-  );
+  return <AccountScreen />;
 };
 
 export default App;

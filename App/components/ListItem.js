@@ -12,6 +12,7 @@ const ListItem = ({
   onPress,
   renderRightActions,
   IconContainer,
+  style,
 }) => {
   return (
     <Swipeable renderRightActions={renderRightActions}>
@@ -20,8 +21,8 @@ const ListItem = ({
         onPress={onPress}
         underlayColor={colors.lgihtGray}
       >
-        <View style={styles.container}>
-          {<IconContainer />}
+        <View style={[styles.container, style]}>
+          {IconContainer && <IconContainer />}
           {image && (
             <Image
               style={styles.img}
@@ -51,7 +52,7 @@ export default ListItem;
 const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
-    marginLeft: 15,
+    paddingLeft: 15,
     paddingVertical: 15,
   },
   img: {
