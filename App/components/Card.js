@@ -29,7 +29,7 @@ export default Card;
 
 const styles = StyleSheet.create({
   card: {
-    width: '90%',
+    width: '100%',
     borderRadius: 15,
     overflow: 'hidden',
     backgroundColor: '#fff',
