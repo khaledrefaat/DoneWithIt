@@ -14,7 +14,7 @@ const listings = [
       'https://images.unsplash.com/photo-1581044777550-4cfa60707c03?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80',
   },
   {
-    id: 2,
+    id: 1,
     title: 'Outfit for sale',
     price: 800,
     image:
